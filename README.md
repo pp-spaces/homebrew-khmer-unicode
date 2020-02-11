@@ -5,7 +5,7 @@ Here is where you can find or submit font Casks for the [Homebrew Cask](https://
 ## Let’s try it!
 
 ```bash
-$ brew tap homebrew/cask-fonts                  # you only have to do this once!
+$ brew tap pp-spaces/cask-fonts                  # you only have to do this once!
 $ brew cask install font-khmer-os-system
 ```
 
