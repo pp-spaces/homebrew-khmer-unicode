@@ -1,6 +1,6 @@
 cask 'font-khmeros-bundle' do
   version '5.0.0'
-  sha256 :no_check
+  sha256 'b597d25b66a83a4f3e252a153b42a4153f704fc5e1fa5fde239bc17679369a73'
 
   url "https://github.com/KhmerSoftwareInitiative/khmer-unicode-fonts/releases/download/v#{version}/khmer-unicode-fonts-v#{version}.zip"
   appcast 'https://github.com/KhmerSoftwareInitiative/khmer-unicode-fonts/releases.atom'
