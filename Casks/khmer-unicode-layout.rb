@@ -7,7 +7,7 @@ cask 'khmer-unicode-layout' do
   name 'Khmer Unicode Keyboard Layout'
   homepage 'https://github.com/socheatsok78/Khmer-Unicode-for-MacOS'
 
-  pkg "Khmer.Unicode.pkg"
+  pkg "Khmer.Unicode.pkg", allow_untrusted: true
 
   zap trash: [
                '/Library/Keyboard Layouts/KhmerUnicode.bundle',
