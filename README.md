@@ -1,5 +1,7 @@
 # Khmer Unicode for Homebrew
 
+[![Homebrew Doctor][github-ci-brew-badge]][github-ci-brew-url]
+
 Here is where you can find or submit font Casks for the [Homebrew Cask](https://github.com/Homebrew/homebrew-cask) project.
 
 ## Let’s try it!
@@ -25,3 +27,7 @@ See [docs/README.md](docs/README.md)
 ## homebrew-cask-fonts License
 
 Code is under the [BSD 2 Clause (NetBSD) license](LICENSE)
+
+<!-- Variables -->
+[github-ci-brew-url]: https://github.com/pp-spaces/homebrew-khmer-unicode/actions?query=workflow%3A%22Homebrew+Doctor%22
+[github-ci-brew-badge]: https://github.com/pp-spaces/homebrew-khmer-unicode/workflows/Homebrew%20Doctor/badge.svg
