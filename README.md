@@ -9,6 +9,15 @@ $ brew tap pp-spaces/khmer-unicode                  # you only have to do this o
 $ brew cask install font-khmeros-bundle
 ```
 
+## Khmer Unicode Keyboard Layout for macOS
+
+```bash
+$ brew cask install khmer-unicode-layout
+```
+
+### Available fonts
+See [docs/README.md](docs/README.md)
+
 ## Font Licenses
 
 `homebrew-khmer-unicode` will only accept fonts which are freely-distributable. However, even freely-distributable fonts may have limitations (for instance, if you use them in a commercial enterprise). It is the responsibility of the user to know and respect the license of each font.
