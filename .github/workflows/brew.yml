@@ -1,0 +1,13 @@
+name: Brew
+
+on: [push]
+
+jobs:
+  doctor:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Brew doctor
+        run: |
+          brew tap pp-spaces/khmer-fonts
+          brew cask doctor --debug
