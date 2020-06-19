@@ -3,7 +3,6 @@
 Available fonts:
 - [KhmerOS Bundle](#khmeros-bundle)
 - [Open Khmer School](#open-khmer-school)
-- [Khmer](#khmer)
 
 
 # Casks
@@ -51,19 +50,3 @@ Includes:
 ```
 
 Source: https://github.com/OpenInstituteCambodia/open-khmer-school
-
-## Khmer
-
-These fonts are licensed under the Open Font License.
-
-```bash
-$ brew cask install font-khmer
-```
-
-Includes:
-
-```bash
-# Khmer.ttf
-```
-
-Source: https://github.com/Homebrew/homebrew-cask-fonts/blob/master/Casks/font-khmer.rb
