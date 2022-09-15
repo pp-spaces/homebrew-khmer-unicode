@@ -10,4 +10,3 @@ jobs:
       - name: Brew doctor
         run: |
           brew tap pp-spaces/khmer-fonts
-          brew cask doctor --debug
