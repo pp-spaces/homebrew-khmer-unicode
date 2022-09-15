@@ -8,13 +8,13 @@ Here is where you can find or submit font Casks for the [Homebrew Cask](https://
 
 ```bash
 $ brew tap pp-spaces/khmer-unicode                  # you only have to do this once!
-$ brew cask install font-khmeros-bundle
+$ brew install --cask font-khmeros-bundle
 ```
 
 ## Khmer Unicode Keyboard Layout for macOS
 
 ```bash
-$ brew cask install khmer-unicode-layout
+$ brew install --cask khmer-unicode-layout
 ```
 
 ### Available fonts
