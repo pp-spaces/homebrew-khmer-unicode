@@ -1,7 +1,0 @@
-os: osx
-
-install:
-  - brew tap pp-spaces/khmer-fonts
-  
-script:
-  - brew cask doctor --debug
