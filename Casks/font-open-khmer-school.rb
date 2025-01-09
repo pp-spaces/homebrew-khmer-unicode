@@ -6,9 +6,10 @@ cask 'font-open-khmer-school' do
   name 'Open Khmer School'
   homepage 'https://github.com/OpenInstituteCambodia/open-khmer-school'
 
-  font 'open-khmer-school-1.420/fonts/Normal/OpenKhmerSchool-Bold.ttf'
-  font 'open-khmer-school-1.420/fonts/Normal/OpenKhmerSchool-Light.ttf'
-  font 'open-khmer-school-1.420/fonts/Normal/OpenKhmerSchool-Medium.ttf'
-  font 'open-khmer-school-1.420/fonts/Normal/OpenKhmerSchool-Regular.ttf'
-  font 'open-khmer-school-1.420/fonts/Normal/OpenKhmerSchool-SemiBold.ttf'
+  font 'fonts/Normal/OpenKhmerSchool-Bold.ttf'
+  font 'fonts/Normal/OpenKhmerSchool-Light.ttf'
+  font 'fonts/Normal/OpenKhmerSchool-Medium.ttf'
+  font 'fonts/Normal/OpenKhmerSchool-Regular.ttf'
+  font 'fonts/Normal/OpenKhmerSchool-SemiBold.ttf'
+  font 'fonts/Dotted/OpenKhmerSchool-Dotted.ttf'
 end
