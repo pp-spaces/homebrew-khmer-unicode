@@ -7,8 +7,8 @@ Here is where you can find or submit font Casks for the [Open Khmer Fonts](https
 ## Let’s try it!
 
 ```bash
-$ brew tap openkhmerfonts/tap      # you only have to do this once!
-$ brew install --cask font-khmeros-bundle    # or openkhmerfonts/tap/font-khmeros-bundle
+$ brew tap openkhmerfonts/tap              # you only have to do this once!
+$ brew install --cask font-khmeros-bundle  # or openkhmerfonts/tap/font-khmeros-bundle
 ```
 
 ## Khmer Unicode Keyboard Layout for macOS
