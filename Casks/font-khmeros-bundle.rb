@@ -6,11 +6,6 @@ cask 'font-khmeros-bundle' do
   name 'KhmerOS Bundle'
   homepage 'https://github.com/KhmerSoftwareInitiative'
 
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
-
   font 'KhmerOS.ttf'
   font 'KhmerOS_battambang.ttf'
   font 'KhmerOS_bokor.ttf'

@@ -6,11 +6,6 @@ cask 'khmer-unicode-layout' do
   name 'Khmer Unicode Keyboard Layout'
   homepage 'https://github.com/socheatsok78/khmer-unicode-keyboard-for-macos'
 
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
-
   pkg "Khmer.Unicode.pkg", allow_untrusted: true
 
   zap trash: [
