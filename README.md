@@ -1,4 +1,4 @@
-# Khmer Unicode for Homebrew
+# Open Khmer Fonts's Homebrew Tap
 
 [![Homebrew Doctor][github-ci-brew-badge]][github-ci-brew-url]
 
