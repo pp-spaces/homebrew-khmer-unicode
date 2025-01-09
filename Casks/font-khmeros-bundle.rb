@@ -3,9 +3,13 @@ cask 'font-khmeros-bundle' do
   sha256 'b597d25b66a83a4f3e252a153b42a4153f704fc5e1fa5fde239bc17679369a73'
 
   url "https://github.com/KhmerSoftwareInitiative/khmer-unicode-fonts/releases/download/v#{version}/khmer-unicode-fonts-v#{version}.zip"
-  appcast 'https://github.com/KhmerSoftwareInitiative/khmer-unicode-fonts/releases.atom'
   name 'KhmerOS Bundle'
   homepage 'https://github.com/KhmerSoftwareInitiative'
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   font 'KhmerOS.ttf'
   font 'KhmerOS_battambang.ttf'

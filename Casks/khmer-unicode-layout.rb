@@ -3,9 +3,13 @@ cask 'khmer-unicode-layout' do
   sha256 '988cf0e3e8e15efb7ee4c3fad0173566d862f0fd3c88a41a7ae90d25ce819935'
 
   url "https://github.com/socheatsok78/khmer-unicode-keyboard-for-macos/releases/download/v#{version}/Khmer.Unicode.pkg"
-  appcast 'https://github.com/socheatsok78/khmer-unicode-keyboard-for-macos/releases.atom'
   name 'Khmer Unicode Keyboard Layout'
   homepage 'https://github.com/socheatsok78/khmer-unicode-keyboard-for-macos'
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   pkg "Khmer.Unicode.pkg", allow_untrusted: true
 
